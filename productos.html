@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de productos</title>
+  <link rel="stylesheet" href="/css/prod.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script src="/js/product.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  
+  <header class="header">
+
+  <div class="top">
+
+     <div class="logo">
+        <img href="/index.html" src="/images/jorgetoloza-marca.png" alt="jorgetoloza-marca">
+        <h1>JORGE TOLOZA</h1>
+     </div>
+
+     <div class="login">
+
+
+          <div class="iconredes">
+              <div ><a href="https://wa.me/+5493512662791/?text=texto" target="_blank"></a>
+                    <i class="bi bi-whatsapp" ></i>
+              </div>
+              <div href="https://www.instagram.com/jorgetoloza.dg/" target="_blank">
+                  <i class="bi bi-instagram" ></i>
+              </div>
+              <div href="https://web.facebook.com/Jorge.Toloza.DG" target="_blank">
+                  <i class="bi bi-facebook" ></i>
+              </div>
+          </div>
+
+      </div>
+  </div>       
+
+  <nav class="nav">
+      <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="./index.html">Inicio</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
+          <li class="menu-item"><a class="menu-link" href="./productos.html">Productos</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Servicios</a></li>
+      </ul>
+  </nav>
+</header>
+    <section class="iniSesion">
+      <div class="marcoForm">
+        <h3>Iniciar Sesión</h3>
+        <form id="loginForm">
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required autofocus>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" required>
+          </div>
+          <button type="submit">Iniciar Sesión</button>
+        </form>
+        <p id="mensaje"></p>
+    </div>
+    <div></div>
+    </section>
+
+  <div class="container" id="product-container">
+ 
+  </div>
+  <div class="cart">
+    <h2>Carrito de Paquete a Contratar</h2>
+    <ul id="cart-items">
+      
+    </ul>
+  </div>
+
+</body>
+</html>

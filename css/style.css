@@ -1,0 +1,36 @@
+*   {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+body { 
+  background-color: #cfcba6;
+}
+
+.marcoForm {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #cfcba6;
+    color: #024b61;
+    max-width: 350px;
+}
+
+.loginForm {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 70%;
+  }

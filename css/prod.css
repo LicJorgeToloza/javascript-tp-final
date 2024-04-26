@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,100;0,500;0,700;0,900;1,100 & display=swap');
+
+body { 
+  background-color: #cfcba6;
+} 
+
+.logo {
+  padding: 1rem;
+}
+
+.logo>h1 {
+  display: none;
+}
+
+.nav {
+  background-color: #1a4e52;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.menu {     
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #2d6a75cc;
+  padding: 0.5rem;
+  max-width: 100%;
+}
+
+.menu-link {
+  color: #cfcba6;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.iniSesion {
+  justify-content: center;
+  align-items: center;
+}
+
+#loginForm {
+  color: #1a4e52;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+#nombre {
+  background-color: #e0dccfde;
+}
+#email {
+  background-color: #e0dccfde;
+}
+#contrasena {
+  background-color: #e0dccfde;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .product {
+    border: 1px solid #78cc47;
+    padding: 16px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #2d6a75;
+    background-color: #bcac82;
+    font-weight: 500;
+    
+  }
+  h3 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a4e52;
+}
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .cart {
+    border: 2px solid #1a4e52;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .cart h2 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    color:#2d6a75;
+    margin-bottom: 10px;
+  }
+  
+  #cart-items {
+    background-color: #1a4e52;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #78cc47;
+    font-size: 16px;
+    list-style: none;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #1a4e52;
+  }
+  

@@ -1,0 +1,11 @@
+[
+    { "id": 1, "image": "images/Logo-create.png", "title": "Diseño de Marca", "category": "Diseño Gráfico", "price": 100000 },
+    { "id": 2, "image": "images/Logo-trazado-convertido-a-vector.png", "title": "Vectorizado de Marcas", "category": "Diseño Gráfico", "price": 90000 },
+    { "id": 3, "image": "images/publicidad-grafica.png", "title": "Manual de Uso de Marca", "category": "Diseño Gráfico", "price": 80000 },
+    { "id": 4, "image": "images/community-manager.png", "title": "Community Manager", "category": "Marketing Digital", "price": 95000 },
+    { "id": 5, "image": "images/grafica-contenidosRS.png", "title": "Graficos para Redes Sociales", "category": "Marketing Digital", "price": 75000 },
+    { "id": 6, "image": "images/marketing-digital.png", "title": "Campanas Marketing Digital", "category": "Marketing Digital", "price": 85000 },
+    { "id": 7, "image": "images/Dis-Web-html-css-javascript.png", "title": "Desarrollo Web", "category": "Diseño Web", "price": 110000 },
+    { "id": 8, "image": "images/web-html-css-web-programmer.png", "title": "Mantenimiento y Soporte Web", "category": "Diseño Web", "price": 70000 },
+    { "id": 9, "image": "images/web-diseno-wordpress.png", "title": "Diseño Web Wordpress", "category": "Diseño Web", "price": 105000 }
+]
